@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Single Song Prototype</title>
+</head>
+<body>
+    
+
+    <div class="div--SingleAlbumOnly">
+        <img src="./images/Journey-GreatestHits.jpg" alt="albumArt">
+        <div id="div--SingleAlbum-metaData">
+            <div id="titleDiv">Album: Heaven Tonight</div>
+            <div id="artistName">Artist: Cheap Trick</div>
+            <div id="singleSongTrackName">This Track</div>
+            <div id="singleSongTrackDuration">Duration</div>
+            <div id="singleSongTrackRating">Rating: </div>
+            <div id="singleSongTrackYouTube">YouTube: </div>
+            <div id="singleSongTrackComments">Comments: </div>
+            <br>
+            <br>
+            <br>
+            <button class="formButton">Add Song</button>
+        </div>
+    </div>
+
+
+
+    <!-- "title": "Sledgehammer",
+    "duration": "5:12",
+    "rating": 9,
+    "videoLink": "https://youtu.be/dQw4w9WgXcQ",
+    "id": 6,
+    "comments": [ -->
+
+    <form action="POST" id="addAlbumToHomeViewForm" class="inputForm">
+        Add Song<br>
+        <input type="text" id="songTitle" placeholder="Title"><br>
+        <input type="text" id="songLink" placeholder="YouTube Link"><br>
+        <input type="text" id="songDuration" placeholder="Duration"><br>
+        <button type="submit">Submit</button>
+    </form>
+
+
+
+
+</body>
+</html>

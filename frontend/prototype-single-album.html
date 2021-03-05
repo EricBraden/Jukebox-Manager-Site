@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Music Aficionados' Jukebox Manager</title>
+</head>
+<body>
+
+
+
+
+    <div class="div--SingleAlbumOnly">
+        <img src="./images/Journey-GreatestHits.jpg" alt="albumArt">
+        <div id="div--SingleAlbum-metaData">
+            <div id="titleDiv">Album: Heaven Tonight</div>
+            <div id="artistName">Artist: Cheap Trick</div>
+            <div id="recordLabel">Record Label: </div>
+            <div id="description">Description: </div>
+            <div id="song1">Tracks</div>
+            <div id="song1">Song 1</div>
+            <div id="song1">Song 2</div>
+            <div id="song1">Song 3</div>
+            <div id="song1">Song 4</div>
+            <div id="song1">Song 5</div>
+            <div id="song1">Song 6</div>
+            <div id="comments">Comments: </div>
+            <div id="rating">Rating: </div>
+            <br>
+            <br>
+            <br>
+            <button class="formButton">Modify This Album</button>
+        </div>
+    </div>
+
+
+
+<!-- //     main.innerHTML = `
+//     <div class="div--SingleAlbumOnly">
+//     <img src="${album.imageUrl}" alt="Album Art">
+//     <div id="albumDetailsWrapper">
+//         <div id="titleDiv">Album: ${album.title}</div>
+//         <div id="artistName">Artist: ${album.artistName}</div>
+//         <div id="recordLabel">Record Label: ${album.recordLabel}</div>
+//         <div id="description">Description: ${album.description}</div>
+//         <div "song1">Tracks</div>
+//         <div id="listOfTracks"> </div>
+//         <div id="comments">Comments: </div>
+//         <br>
+//         <br>
+//         <br>
+//         <button class="formButton">Modify This Album</button>
+//     </div>
+// </div>    
+//     `; -->
+
+
+
+    <form action="POST" id="add" class="inputForm">
+        Modify This Album <br>
+        <input type="text" id="tit le" placeholder="Title"><br>
+        <input type="text" id="arti stName" placeholder="Artist Name"><br>
+        <input type="text" id="recordLabel" placeholder="Record Label"><br>
+        <input type="text" id="description" placeholder="Description"><br>
+        <input type="text" id="imageUrl" placeholder="Image Location (URL)"><br>
+        <input type="text" id="videoUrl" placeholder="YouTube Location (URL)"><br>
+        <!-- <input type="hidden" id="id"> -->
+        <input type="text" id="songs" placeholder="Songs"><br>
+        <input type="text" id="rating" placeholder="Rating"><br>
+        <input type="text" id="comment" placeholder="Comment"><br>
+        <button type="submit">Add Album</button>
+    </form>
+
+
+<!--notes
+
+ALBUM
+title
+artistName
+recordLabel
+description
+imageUrl
+id
+songs [another JSON]
+comments
+
+
+SONG
+title
+duration
+rating
+videoLink
+id
+comments
+ -->
+
+
+</body>
+</html>

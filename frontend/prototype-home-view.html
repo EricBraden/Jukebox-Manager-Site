@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Music Aficionados' Jukebox Manager</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+<span id="pageHeading">Jukebox Manager</span>
+
+<div id="main--grid-wrapper">
+    <div class="div--album" id="div--album1">
+        <img src="./images/CheapTrick-HeavenTonight.jpg" alt="albumArt">
+        <div class="div--white_spacer"></div>
+        <div id="titleDiv">Heaven Tonight</div>
+        <div id="artistName">Cheap Trick</div>
+    </div>
+    
+    <div class="div--album" id="div--album2">
+        <img src="./images/CharlesMingus-RootsAndBlues.jpg" alt="albumArt">
+        <div class="div--white_spacer"></div>
+        <div id="titleDiv">Heaven Tonight</div>
+        <div id="artistName">Cheap Trick</div>
+    </div>
+    
+    <div class="div--album" id="div--album3">
+        <img src="./images/Journey-GreatestHits.jpg" alt="albumArt">
+        <div class="div--white_spacer"></div>
+        <div id="titleDiv">Heaven Tonight</div>
+        <div id="artistName">Cheap Trick</div>
+    </div>
+    
+    <div class="div--album" id="div--album4">
+        <img src="./images/PeterGabriel-So.jpg" alt="albumArt">
+        <div class="div--white_spacer"></div>
+        <div id="titleDiv">Heaven Tonight</div>
+        <div id="artistName">Cheap Trick</div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <button class="formButton">Add An Album</button>
+</div>
+
+
+
+<br>
+<br>
+<br>
+<br>
+
+<form action="POST" id="addAlbumToHomeViewForm">
+    Add An Album <br>
+    <input type="text" id="title" placeholder="Title"><br>
+    <input type="text" id="artistName" placeholder="Artist Name"><br>
+    <!-- <input type="text" id="recordLabel" placeholder="Record Label"><br>
+    <input type="text" id="description" placeholder="Description"><br>
+    <input type="text" id="imageUrl" placeholder="Image Location (URL)"><br>
+    <input type="text" id="videoUrl" placeholder="YouTube Location (URL)"><br>
+    <!-- <input type="text" id="id"> -->
+    <!-- <input type="text" id="songs" placeholder="Songs"><br>
+    <input type="text" id="rating" placeholder="Rating"><br>
+    <input type="text" id="comment" placeholder="Comment"><br>  -->
+    <button type="submit">Add Album</button>
+</form>
+
+
+
+<script src="./js/app.js"></script>
+</body>
+</html>
